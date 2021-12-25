@@ -6,7 +6,7 @@
 * alice  
   6장 Simple-NFT 프로젝트 예제: 스마트 컨트랙트 + Dapp
 
-* nft-gen
+* nft-gen  
   6장 Simple-NFT 프로젝트 예제: NFT 이미지와 메타정보 생성
 
 * truffle-dapp, hardhat-dapp  
