@@ -1,0 +1,10 @@
+{
+  "name": "nft-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "canvas": "^2.8.0",
+    "nft.storage": "^4.0.1"
+  }
+}
