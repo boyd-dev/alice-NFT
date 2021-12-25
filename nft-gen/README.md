@@ -29,7 +29,7 @@
 * create.js  
   이미지 조합 하나를 받아서 canvas 라이브러리를 이용하여 최종 이미지를 만들고 IPFS에 업로드한 후 메타정보 URI를 파일에 기록합니다.
   IPFS에 업로드하려면 [NFT Storage](https://nft.storage)에서 API 키를 발급받아서 `apiKey`에 넣으면 됩니다.
-* 
+
 * file.js  
   각 토큰의 메타정보 URI를 파일로 저장할 때 사용하는 함수들이 작성되어 있습니다.
 
