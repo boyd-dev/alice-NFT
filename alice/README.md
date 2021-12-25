@@ -2,12 +2,12 @@
 
 * API 키와 계정 및 소스파일 수정해야 하는 부분  
   - hardhat-config.js  
-    `const keys = []` 배포 계정의 개인 키(⚠️유출되지 않도록 주의!)  
-    `networks: {rinkeby: {url: ...` Rinkeby 테스트넷에 연결할 수 있는 알케미 RPC-ENDPOINT  
+    `const keys = []` 배포 계정의 개인 키(⚠️유출되지 않도록 주의)  
+    `networks: {rinkeby: {url: ...` Rinkeby 테스트넷에 연결할 수 있는 알케미 RPC-endpoint  
     `namedAccounts: {deployer: {rinkeby: ...` Rinkeby 배포 계정  
     `etherscan: { apiKey: ...` 이더스캔 API 키
   - `src/utils/constants.js`  
-    알케미 RPC-ENDPOINT  
+    알케미 RPC-endpoint  
     `OWNER` Rinkeby 배포 계정(토큰 발행 계정)
   
 

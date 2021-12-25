@@ -1,12 +1,12 @@
 ## 자바스크립트 개발자를 위한 이더리움 NFT
 
-현재 자바스크립트 개발자들이 블록체인과 이더리움의 개념을 빠르게 이해하고 애플리케이션 개발을 보다 쉽게 접근하는데 
+자바스크립트 개발자들이 블록체인과 이더리움의 개념을 빠르게 이해하고 애플리케이션 개발에 보다 쉽게 접근하는데 
 도움이 되는 내용으로 구성되었습니다.
 
-* alice  
+* [alice](https://github.com/boyd-dev/alice-NFT/tree/main/alice)  
   6장 Simple-NFT 프로젝트 예제: 스마트 컨트랙트 + Dapp
 
-* nft-gen  
+* [nft-gen](https://github.com/boyd-dev/alice-NFT/tree/main/nft-gen)  
   6장 Simple-NFT 프로젝트 예제: NFT 이미지와 메타정보 생성
 
 * truffle-dapp, hardhat-dapp  
