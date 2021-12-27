@@ -39,6 +39,8 @@ function App() {
             setAccount("0x");
             setBtnText(CONNECT_TEXT);
             setAlsNft(null);
+
+            window.location.href = "/";
             
         } else {
             setOpen(true);
