@@ -9,9 +9,13 @@
   
 완성 이미지가 저장되는 곳은 `images/_Final`입니다.
 
-* index.js  
-  메인 스크립트입니다. `node index`를 실행하면 속성 이미지 3개를 조합하여 최종 이미지를 생성하고 IPFS에 업로드한 후 
-  메타정보를 파일로 저장합니다. 
+* 실행방법    
+  ```
+  node index
+  ```
+  속성 이미지 3개를 조합하여 최종 이미지를 생성하고 IPFS에 업로드한 후 메타정보를 `meta.txt` 파일로 저장합니다. 아래 파일들은 
+  `index.js`에서 사용하는 파일들입니다.  
+
 
 * trait.js  
   각 속성 이미지들의 이름이 저장되어 있습니다. 예를 들어 face는 100개인데 `id`가 1번 부터 100번까지 부여되고 
@@ -28,11 +32,13 @@
 
 * create.js  
   이미지 조합 하나를 받아서 canvas 라이브러리를 이용하여 최종 이미지를 만들고 IPFS에 업로드한 후 메타정보 URI를 파일에 기록합니다.
-  IPFS에 업로드하려면 [NFT Storage](https://nft.storage)에서 API 키를 발급받아서 `apiKey`에 넣으면 됩니다.
+  IPFS에 업로드하려면 [NFT Storage](https://nft.storage)에서 API 키를 발급받아서 `apiKey`에 넣으면 됩니다.  
+
 
 * file.js  
-  각 토큰의 메타정보 URI를 파일로 저장할 때 사용하는 함수들이 작성되어 있습니다.
+  각 토큰의 메타정보 URI를 파일로 저장할 때 사용하는 함수들이 작성되어 있습니다.  
+
 
 * convertMata.js  
-  메타정보 URI 파일 `meta.txt`을 읽어서 `ipfs://bafy...5ysiy/metadata.json` 형식을 `https://dweb.link/ipfs/bafy...5ysiy/metadata.json` 형식으로 변환하여 새로운 파일 `meta.href.txt`에 저장합니다.
+  생성된 메타정보 URI 파일 `meta.txt`을 읽어서 `ipfs://bafy...5ysiy/metadata.json` 형식을 `https://dweb.link/ipfs/bafy...5ysiy/metadata.json` 형식으로 변환하여 새로운 파일 `meta.href.txt`에 저장합니다.
   `node convertMeta`로 실행하면 됩니다.
