@@ -7,7 +7,7 @@
 * images/Body
 * images/Background
   
-완성 이미지가 저장되는 곳은 `images/_Final`입니다.
+완성 이미지가 저장되는 곳은 `images/_Final`입니다. `_Final` 폴더를 미리 만드세요.
 
 * 실행방법    
   ```
