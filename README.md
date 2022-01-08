@@ -15,6 +15,9 @@
 * [nft-gen](https://github.com/boyd-dev/alice-NFT/tree/main/nft-gen)  
   6장 Simple-NFT 프로젝트 예제: NFT 이미지와 메타정보 생성
 
+* [injectedMM](https://github.com/boyd-dev/alice-NFT/tree/main/injectedMM)  
+  메타마스크 지갑 연결 예제
+
 * 개발(실습) 환경
 
   - Node.js 16.13.0
