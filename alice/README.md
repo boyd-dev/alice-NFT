@@ -1,5 +1,8 @@
 ## Simple NFT 프로젝트(예제)
 
+* Rinkeby 이더  
+  [https://www.rinkebyfaucet.com/](https://www.rinkebyfaucet.com/)
+
 * API 키와 계정 및 소스파일 수정해야 하는 부분  
   - hardhat-config.js  
     `const keys = []` 배포 계정의 개인 키(⚠️유출되지 않도록 주의)  
