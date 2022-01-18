@@ -3,7 +3,7 @@
 자바스크립트 개발자들이 블록체인과 이더리움의 개념을 빠르게 이해하고 애플리케이션 개발에 보다 쉽게 접근하는데 
 도움이 되는 내용으로 구성되었습니다.
 
-* solidity  
+* [solidity](https://github.com/boyd-dev/alice-NFT/tree/main/solidity)  
   2장 솔리디티(Solidity) 예제 모음
 
 * truffle-dapp, hardhat-dapp  
