@@ -39,6 +39,6 @@
   각 토큰의 메타정보 URI를 파일로 저장할 때 사용하는 함수들이 작성되어 있습니다.  
 
 
-* convertMata.js  
+* convertMeta.js  
   생성된 메타정보 URI 파일 `meta.txt`을 읽어서 `ipfs://bafy...5ysiy/metadata.json` 형식을 `https://dweb.link/ipfs/bafy...5ysiy/metadata.json` 형식으로 변환하여 새로운 파일 `meta.href.txt`에 저장합니다.
   `node convertMeta`로 실행하면 됩니다.
