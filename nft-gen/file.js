@@ -47,7 +47,7 @@ const readMetadataUri = async (index) => {
     return tokenUri;
 }
 
-// ipfs: 형식의 URI를 http URL 로 변환하여 파일을 생성
+// ipfs 형식의 URI를 http URL 로 변환하여 파일을 생성
 const convertGatewayUrl = async (index) => {
     
     const buffer = await fs.readFileSync(META_FILE);

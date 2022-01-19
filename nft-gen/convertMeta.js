@@ -1,4 +1,4 @@
-// ipfs: 형식의 URI를 http URL 로 변환하여 파일을 생성
+// ipfs 형식의 URI를 http URL 로 변환하여 파일을 생성
 const fs = require("fs");
 const { convertGatewayUrl } = require("./file.js");
 const META_FILE = "./meta.href.txt";
