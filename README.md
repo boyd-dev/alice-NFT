@@ -4,7 +4,7 @@
 도움이 되는 내용으로 구성되었습니다.
 
 * [docs](https://github.com/boyd-dev/alice-NFT/tree/main/docs)  
-  자바스크립트 개발자를 위한 이더리움(NFT) 문서 PDF 포맷
+  자바스크립트 개발자를 위한 이더리움(NFT) 문서 PDF
 
 * [solidity](https://github.com/boyd-dev/alice-NFT/tree/main/solidity)  
   2장 솔리디티(Solidity) 예제 모음
@@ -12,11 +12,11 @@
 * truffle-dapp, hardhat-dapp  
   5장 Dapp 개발환경: 트러플과 하드햇 예제 프로젝트
 
-* [alice](https://github.com/boyd-dev/alice-NFT/tree/main/alice)  
-  6장 Simple-NFT 프로젝트 예제: 스마트 컨트랙트 + Dapp
-
 * [nft-gen](https://github.com/boyd-dev/alice-NFT/tree/main/nft-gen)  
   6장 Simple-NFT 프로젝트 예제: NFT 이미지와 메타정보 생성
+
+* [alice](https://github.com/boyd-dev/alice-NFT/tree/main/alice)  
+  6장 Simple-NFT 프로젝트 예제: 스마트 컨트랙트 + Dapp
 
 * [injectedMM](https://github.com/boyd-dev/alice-NFT/tree/main/injectedMM)  
   메타마스크 지갑 연결 예제
