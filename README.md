@@ -24,7 +24,7 @@
 * 개발(실습) 환경
 
   - Node.js 16.13.0
-  - React.js 17.0.2 (create-react-app)
+  - React.js 17.0.2 (react-scripts 4.0.3)
   - Solidity 0.8.4
   - [Truffle 5.4.19](https://www.trufflesuite.com/)
   - [Hardhat 2.6.8](https://hardhat.org/)
